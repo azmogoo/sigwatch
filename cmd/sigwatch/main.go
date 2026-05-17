@@ -11,10 +11,3 @@ func main() {
 		os.Exit(1)
 	}
 }
-
-func run(args []string) error {
-	if len(args) == 0 {
-		return fmt.Errorf("usage: sigwatch <file>")
-	}
-	return fmt.Errorf("analysis not wired yet")
-}
